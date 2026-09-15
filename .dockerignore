@@ -1,0 +1,9 @@
+.git
+.github
+.claude
+node_modules
+playwright-report
+test-results
+.playwright
+playwright.config.tsbuildinfo
+npm-debug.log*

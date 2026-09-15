@@ -1,0 +1,10 @@
+services:
+  playwright:
+    build:
+      context: .
+    init: true
+    environment:
+      CI: "true"
+    volumes:
+      - ./playwright-report:/app/playwright-report
+      - ./test-results:/app/test-results
