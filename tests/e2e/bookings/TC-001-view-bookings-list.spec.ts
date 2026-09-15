@@ -13,6 +13,7 @@ test.describe('TC-001: View bookings list', () => {
     const emptyState = page.getByText(/no bookings/i);
 
     // Either the booking list or empty state should be present
+    //comment
     await expect(
       bookingCards.first().or(emptyState).first()
     ).toBeVisible();
