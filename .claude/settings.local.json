@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc *)",
+      "Bash(npx playwright *)",
+      "Bash(del *)",
+      "Bash(Get-ChildItem -Path C:\\\\Users\\\\Administrator\\\\Desktop\\\\playwright_automation/tests -Recurse)",
+      "Bash(Select-Object FullName)"
+    ]
+  }
+}
